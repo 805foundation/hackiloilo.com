@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  border-left: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.border-0 {
+  border-width: 0em;
+}
+
+.text-hack {
+  color: #0b5394;
+}
+.bg-hack {
+  background-color: #0b5394;
+}
+.bg-nav {
+  background-color: #003c70;
+}
+.bg-blue {
+  background-color: #458fd1;
+}
+
+.btn-hack {
+  background-color: transparent;
+  color: #0b5394;
+  border-color: #0b5394;
+}
+.btn-hack:hover {
+  background-color: #0b5394;
+  color: #ffffff;
+  border-color: #0b5394;
+  transition-duration: 0.6s;
+}
+.community {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("/img/masthead/community.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.teamwork {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url("/img/masthead/teamwork.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.agenda {
+  height: 120vh;
+  min-height: 500px;
+  background-image: url("/img/masthead/agenda.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact {
+  height: 60vh;
+  min-height: 500px;
+  background-image: url("/img/masthead/contact.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
