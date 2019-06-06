@@ -64,10 +64,26 @@
   </div>
 
   <div class="container col-4 text-center">
-    <a href="#" class="text-decoration-none">
-      <button class="btn btn-lg btn-block btn-outline-warning px-5">
-        Register Now
-      </button>
-    </a>
+    <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/hack-iloilo-tickets-62177183630" rel="noopener noreferrer" target="_blank"></noscript>
+  <!-- You can customize this button any way you like -->
+  <button id="eventbrite-widget-modal-trigger-62177183630" class="btn btn-lg btn-outline-warning px-5" type="button">Register Now</button>
+  <noscript></a>Buy Tickets on Eventbrite</noscript>
+  
+  <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+  
+  <script type="text/javascript">
+      var exampleCallback = function() {
+          console.log('Order complete!');
+      };
+  
+      window.EBWidgets.createWidget({
+          widgetType: 'checkout',
+          eventId: '62177183630',
+          modal: true,
+          modalTriggerElementId: 'eventbrite-widget-modal-trigger-62177183630',
+          onOrderComplete: exampleCallback
+      });
+  </script>
   </div>
 </div>
