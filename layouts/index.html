@@ -1,49 +1,148 @@
 {{ define "main" }}
-<div class="py-5"></div>
-<div class="py-5"></div>
+<div class="container text-center py-5 col-lg-2 col-5">
+  <img src="/img/logo/favicon.png" alt="" class="card-img" />
+</div>
+
+<div class="container text-center">\
+  <h1 class="">This event is free!</h1>
+  <iframe
+    width="100%"
+    height="500"
+    src="https://www.youtube.com/embed/qj4DQfYx2Hg"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
+<div class="py-3"></div>
 
 <div class="container text-center">
-  <img src="/img/logo/logo2.png" alt="" class="img-thumbnail border-0" />
+  <!-- Noscript content for added SEO -->
+  <noscript><a href="https://www.eventbrite.com/e/hack-iloilo-tickets-62177183630" rel="noopener noreferrer" target="_blank"></noscript>
+    <!-- You can customize this button any way you like -->
+    <button id="eventbrite-widget-modal-trigger-62177183630" class="btn btn-lg btn-blue px-5" type="button">Register Now</button>
+  <noscript></a>Buy Tickets on Eventbrite</noscript>
+</div>
+  
+<div class="py-3"></div>
+
+
+<div class="container-fluid bg-warning text-center py-5">
+  <div class="container">
+    <div class="py-3"></div>
+    <div class="card-deck">
+      <div class="card text-center p-5">
+          <i class="fas fa-trophy fa-5x"></i>
+          <div class="card-body">
+            <h1 class="card-title">₱ 25,000</h1>
+            <h5 class="card-text">1st Prize</h5>
+          </div>
+      </div>
+      <div class="card text-center p-5">
+          <i class="fas fa-trophy fa-5x"></i>
+          <div class="card-body">
+            <h1 class="card-title">₱ 15,000</h1>
+            <h5 class="card-text">2nd Prize</h5>
+          </div>
+       </div>
+      <div class="card text-center p-5">
+        <i class="fas fa-trophy fa-5x"></i>
+        <div class="card-body">
+          <h1 class="card-title">₱ 10,000</h1>
+          <h5 class="card-text">3rd Prize</h5>
+        </div>
+      </div>
+    </div>
+    <div class="py-3"></div>  
+  </div>
+  <h5 class="">All participants will recieve a certificate</h5>
 </div>
 
 <div class="py-5"></div>
 
-{{ partial "header" . }}
-
-<div id="theme" class="py-5"></div>
-
-{{ partial "theme" . }}
-
-<div id="prizes" class="py-5"></div>
-
-{{ partial "prizes" . }}
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h1 class="card-title font-weight-bold text-blue">Hack Iloilo</h1>
+      <h2 class="font-weight-bold">
+        Theme: How can we leverage technology to improve education in the
+        Philippines?
+      </h2>
+      <h4 class="py-2 text-dark">
+        Bring your creativity, curiosity, and passion to Iloilo's unique
+        hackathon. A hackathon is a coding event in which teams “hack” together
+        to create an awesome project like a game, website, or app. Team up with
+        some of the brightest minds in Iloilo and—fueled by free food and the
+        chance to win prizes—turn your creative energy into award-winning
+        projects that entertain and inspire.
+      </h4>
+      <div class="py-3"></div>
+      <h4 class="font-weight-bold">What is Hack Iloilo?</h4>
+      <h5 class="py-2">
+        - This 12-hour program was designed to empower undergraduate and graduate
+        students to experience the innovation and excitement that occurs when
+        the power of coding is unleashed 
+        <br><br>
+        - Our event's theme-Smart
+        Education-prompts attendees to build projects that make education for
+        all students a bit easier. 
+        <br><br>
+        - Attendees will have the opportunity to
+        network and collaborate with others. 
+        <br><br>
+        - Lunch, dinner, and snacks are
+        provided. 
+        <br><br>
+        - Attendees can expect door prizes, awards and plenty of swag.
+      </h5>
+      <h4 class="font-weight-bold">When is the event?</h4>
+      <h5 class="py-2">
+        This 12-hour long event formally kicks off on August 21 from 9:00 a.m.
+        to 9:00 p.m.
+      </h5>
+      <h4 class="font-weight-bold">Who should attend?</h4>
+      <h5 class="py-2">
+        This event is open to undergraduate and graduate students All experience
+        levels are welcomed!
+      </h5>
+      <h4 class="font-weight-bold">What can I win?</h4>
+      <h5 class="py-2">
+        - First place receives ₱25,000 
+        <br><br>
+        - Second place receives ₱15,000 
+        <br><br>
+        - Third place
+        receives ₱10,000 
+        <br><br>
+        - All participants will receive a certificate
+        acknowledging their hard work and diligence in competing in Hack Iloilo.
+      </h5>
+      <h4 class="font-weight-bold">***Important Information***</h4>
+      <h5 class="col-lg-6">
+        - You do not need to bring a laptop. The venue is an internet cafe and a
+        computer will be provided for you.
+        <br /><br>
+        - ALL participants must read and agree to Hack Iloilo Code of Conduct
+        <br> <a href="https://docs.google.com/document/d/1XzJafHOspgue55mhnEnG46C0Omi7_AGnkvC6WIKHOic/edit" class="">Click here for Code of Conduct</a>
+        <br /> <br>
+        - Please read the following document on how you can prepare
+        <br><a href="https://docs.google.com/presentation/d/10pFbwB_J6qLE0hGrfHCr-eRxeFJr20KmbKcL0mOQllE/edit" class="">Click here to know how to prepare</a>
+      </h5>
+    </div>
+  </div>
+</div>
 
 <div class="py-5"></div>
-
-{{ partial "teamwork" . }}
-
-<div id="tools" class="py-5"></div>
-
-{{ partial "tools" . }}
-
-<div id="agenda" class="py-5"></div>
-
-{{ partial "agenda" . }}
-
-<div id="mentors" class="py-5"></div>
-
-{{ partial "mentors" . }}
-
-<div id="judges" class="py-5"></div>
-
-{{ partial "judges" . }}
-
-<div id="sponsors" class="py-5"></div>
-
-{{ partial "sponsors" . }}
-
-<div id="contact" class="py-5"></div>
-
-{{ partial "contact" . }}
+<div class="container">
+  <h1 class="font-weight-bold">Thank you to our sponsors!</h1>
+  <div class="card-deck">
+    <div class="card border-0"><a href="https://www.newco.foundation/" class=""><img src="/img/sponsors/newco.png" alt="" class="card-img"></a></div>
+    <div class="card border-0"><a href="https://www.facebook.com/cpubetasigmafraternity/" class=""><img src="/img/sponsors/betasigma.png" alt="" class="card-img"></a></div>
+    <div class="card border-0"><a href="#" class=""><img src="/img/sponsors/antoys.png" alt="" class="card-img"></a></div>
+    <div class="card border-0"><a href="https://www.805.foundation/" class=""><img src="/img/sponsors/805.png" alt="" class="card-img"></a></div>
+  </div>
+</div>
+<div class="py-5"></div>
 
 {{ end }}

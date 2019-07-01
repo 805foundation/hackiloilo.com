@@ -9,12 +9,12 @@
     <title>Hack Iloilo</title>
 
     <!-- Bootstrap CSS -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    />
+    /> -->
     <!-- Font Awesome CSS -->
     <link
       rel="stylesheet"
@@ -39,6 +39,7 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="https://swoolu.com/dist/css/swoolu.css" />
     <link rel="stylesheet" href="/css/805.css" />
   </head>
   <body class="">
@@ -50,6 +51,21 @@
     <!-- Site footer -->
     {{ partial "footer" . }}
 
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+    <script type="text/javascript">
+      var exampleCallback = function() {
+        console.log("Order complete!");
+      };
+
+      window.EBWidgets.createWidget({
+        widgetType: "checkout",
+        eventId: "62177183630",
+        modal: true,
+        modalTriggerElementId: "eventbrite-widget-modal-trigger-62177183630",
+        onOrderComplete: exampleCallback
+      });
+    </script>
     <!-- Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
